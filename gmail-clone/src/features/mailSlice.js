@@ -2,7 +2,6 @@ import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 // import { fetchCount } from './mailAPI';
 
 const initialState = {
-  value: 0,
   status: {
     sendMessageIsOpen: false,
   },

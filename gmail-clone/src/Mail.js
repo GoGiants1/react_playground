@@ -21,70 +21,68 @@ function Mail() {
 	const history = useHistory();
 	// const selectedMail = useSelector(selectOpenMail);
 	return (
-		<div className="mail">
-			<div className="mail_tools">
-				<div className="mail_toolsLeft">
-					<IconButton onClick={() => history.push('/')}>
-						<ArrowBackIcon />
-					</IconButton>
-					<IconButton>
-						<MoveToInboxIcon />
-					</IconButton>
-					<IconButton>
-						<ErrorIcon />
-					</IconButton>
-					<IconButton>
-						<DeleteIcon />
-					</IconButton>
-					<IconButton>
-						<EmailIcon />
-					</IconButton>
-					<IconButton>
-						<WatchLaterIcon />
-					</IconButton>
-					<IconButton>
-						<CheckCircleIcon />
-					</IconButton>
-					<IconButton>
-						<LabelImportantIcon />
-					</IconButton>
-					<IconButton>
-						<MoreVertIcon />
-					</IconButton>
-				</div>
-				<div className="mail_toolsRight">
-					<IconButton>
-						<UnfoldMoreIcon />
-					</IconButton>
-					<IconButton>
-						<PrintIcon />
-					</IconButton>
-					<IconButton>
-						<ExitToAppIcon />
-					</IconButton>
-				</div>
-			</div>
-			<div className="mail_body">
-				<div className="mail_bodyHeader">
-					{/* <h2>{selectedMail?.title}</h2>
-					<LabelImportantIcon className="mail_important" />
+    <div className="mail">
+      <div className="mail__tools">
+        <div className="mail__toolsLeft">
+          <IconButton onClick={() => history.push("/")}>
+            <ArrowBackIcon />
+          </IconButton>
+          <IconButton>
+            <MoveToInboxIcon />
+          </IconButton>
+          <IconButton>
+            <ErrorIcon />
+          </IconButton>
+          <IconButton>
+            <DeleteIcon />
+          </IconButton>
+          <IconButton>
+            <EmailIcon />
+          </IconButton>
+          <IconButton>
+            <WatchLaterIcon />
+          </IconButton>
+          <IconButton>
+            <CheckCircleIcon />
+          </IconButton>
+          <IconButton>
+            <LabelImportantIcon />
+          </IconButton>
+          <IconButton>
+            <MoreVertIcon />
+          </IconButton>
+        </div>
+        <div className="mail__toolsRight">
+          <IconButton>
+            <UnfoldMoreIcon />
+          </IconButton>
+          <IconButton>
+            <PrintIcon />
+          </IconButton>
+          <IconButton>
+            <ExitToAppIcon />
+          </IconButton>
+        </div>
+      </div>
+      <div className="mail__body">
+        <div className="mail__bodyHeader">
+          {/* <h2>{selectedMail?.title}</h2>
+					<LabelImportantIcon className="mail__important" />
 					<p>{selectedMail?.subject}</p>
 					<p>{selectedMail?.time}</p> */}
-                    <h2>Subject</h2>
-                    <LabelImportantIcon className="mail_important" />
-                    <p>Title</p>
-                    <p>10pm</p>
-				</div>
-				<div className="mail_message">
-					<p>
-					{/* {selectedMail?.description} */}
-					</p>
-                    <p>This is a message</p>
-				</div>
-			</div>
-			<h1>hello vaibhav</h1>
-		</div>
-	);
+          <h2>Subject</h2>
+          <LabelImportantIcon className="mail__important" />
+          <p>Title</p>
+          <p>10pm</p>
+        </div>
+        <div className="mail__message">
+          <p>{/* {selectedMail?.description} */}</p>
+          <p>This is a message</p>
+        </div>
+      </div>
+      {/* <h1>hello Wook</h1> */}
+    </div>
+  );
 }
 
 export default Mail;
