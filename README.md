@@ -3,7 +3,7 @@
 I currently learning react and react-native.
 
 ## My project List
-1. LinkedIn Clone (React, javascript, redux, Material UI, django(backend) ...)
+1. [LinkedIn Clone (React, javascript, redux, Material UI, django(backend) ...)](https://github.com/GoGiants1/team1-frontend)
 2. Gmail Clone (React, redux, firebase)
 
 ## How to run the react project in Mac OS
