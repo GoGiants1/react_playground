@@ -21,7 +21,7 @@ function SendMail() {
           <input
             name="to"
             placeholder="To"
-            type="text"
+            type="email"
             className=""
             {...register("to",{ required: true })}
           />
